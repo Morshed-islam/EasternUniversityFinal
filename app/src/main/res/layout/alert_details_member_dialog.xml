@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/layer_list"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/main_campus"
+            />
+
+        <ImageView
+            android:id="@+id/Executive_proPic"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/morshed"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="112dp" />
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:id="@+id/executive_alert_name"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Morshed Islam"
+                android:textColor="#000"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/executive_Dpt"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Department: CSE"
+                android:textColor="#343434"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/executive_email"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#343434"
+                android:text="Email: morshedislam21@gmail.com"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/executive_phone"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone: +88 01680-124836"
+                android:textSize="18sp"
+                android:textColor="#343434"
+                />
+
+            <Button
+                android:layout_margin="15dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/alert_btn"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:textColor="#343434"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:background="@drawable/list_selector"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

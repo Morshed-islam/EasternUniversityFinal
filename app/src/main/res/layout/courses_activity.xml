@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".courses.CoursesActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#0088CE"
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:id="@+id/back"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#FFFFFF"
+            android:text="Courses"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:elevation="10dp"
+        android:src="@drawable/logo_course"
+        />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/expandableListView1"
+        android:layout_marginLeft="15dp"
+        android:background="#EEEEEE"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginRight="15dp"
+        android:elevation="10dp"
+        >
+
+    </ExpandableListView>
+</LinearLayout>

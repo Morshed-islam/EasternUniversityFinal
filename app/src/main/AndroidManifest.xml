@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bd.edu.easternuni.easternuniversity">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="bd.edu.easternuni.easternuniversityupdate.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.Academics.Academic"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.Faculties.Faculties"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.StudentLogin.StudentsLogin"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.CalculatorOfCgpa.CalMAin"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.CalculatorOfCgpa.CalSubPage"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.AcademicCal.AcademicCalendar"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.Notice.NoticeActivity"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.AllCourses"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.FirstSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.SecondSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.ThirdSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.FourthSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.FifthSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.SixSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.SevenSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.EightSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.NineSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.TenSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.ElevenSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.course.TwelveSemester"/>
+        <activity android:name="bd.edu.easternuni.easternuniversityupdate.club.EUCCClubMember"/>
+
+    </application>
+
+</manifest>

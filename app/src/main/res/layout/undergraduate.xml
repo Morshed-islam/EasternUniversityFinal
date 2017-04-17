@@ -1,0 +1,160 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="80dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/layer_list"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:text="@string/llb"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/llb_dtails"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/layer_list"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/ent"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp"
+                android:text="@string/ent_dtails"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/layer_list"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:text="@string/bus"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/bus_dtails"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/layer_list"
+            android:layout_marginBottom="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="15dp"
+                android:elevation="2dp"
+                android:textColor="#000"
+                android:text="@string/arts"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="2dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:text="@string/arts_dtails"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

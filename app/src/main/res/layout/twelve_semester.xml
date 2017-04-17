@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#0088CE"
+        android:layout_width="match_parent"
+        android:elevation="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:id="@+id/back"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#FFFF"
+            android:text="@string/fourth_semester"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#0088CE"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/twelve"/>
+
+    </FrameLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fourth_semester"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#080808" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:elevation="20dp"
+
+                android:src="@drawable/underline"
+                />
+
+
+        </LinearLayout>
+
+
+        <!-- 1st Course -->
+
+          <ListView
+              android:id="@+id/list"
+              android:layout_marginTop="15dp"
+              android:fontFamily="sans-serif-condensed"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+

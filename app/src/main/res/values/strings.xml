@@ -1,0 +1,340 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Eastern University</string>
+
+    // Menu Section
+    <string name="about_us">About EU</string>
+    <string name="academics">Academics</string>
+    <string name="academic_calender">Academic Cal</string>
+    <string name="administration">Administration</string>
+    <string name="faculties">Faculties</string>
+    <string name="support">Support</string>
+    <string name="clubs">Clubs</string>
+    <string name="student_login">Student Login</string>
+    <string name="teacher_login">Teacher Login</string>
+    <string name="cgpa_cal">CGPA Cal</string>
+    <string name="courses">Courses</string>
+    <string name="event">Event/News</string>
+    <string name="setting">Settings</string>
+    <string name="notice">Notice</string>
+    <string name="dev_info">Developer</string>
+
+    //About EU Section
+
+    <string name="details"><p>Eastern University is a government approved private university founded in 2003 by Mr. Abul Kasem Haider.</p>\n\n<p>The university is an independent organization  with its own Board of Trustees.</p>\n\n<p>Eastern University envisions to promote and create a learning environment through state-of-the-art facilities and tools; highly competent faculties and staff; expanded frontier of research based knowledge; and international standards supportive of the new horizons in the diverse fields of disciplines and the enunciated development perspectives of the country.</p>\n\n
+</string>
+
+    <string name="address">
+       <u><b> Address:</b></u>\n\n
+        House 26, Road 5\n
+        Dhanmondi, Dhaka-1205\n
+        Phone:+88029676031-5\n
+        Fax: +8802967 5981\n
+        Email: registrar@easternuni.edu.bd \n
+    </string>
+
+
+    //Academic Section
+    //under graduate
+    <string name="llb">Faculty of Law </string>
+    <string name="llb_dtails">• LL.B (Hons.) </string>
+
+    <string name="arts">Faculty of Arts</string>
+    <string name="arts_dtails">• B.A. (Hons.) in English </string>
+
+    <string name="ent">Faculty of Engineering and Technology Administration </string>
+    <string name="ent_dtails">
+        • B.Sc. CSE (Computer Science and Engineering) \n
+        • B.Sc. CSE (Computer Science and Engineering) - Evening \n
+        • B.Sc. EEE (Electrical and Electronic Engineering) \n
+    </string>
+
+    <string name="bus">Faculty of Business Administration</string>
+    <string name="bus_dtails">• BBA (Bachelor of Business Administration) Program</string>
+
+    // graduate
+
+    <string name="law_gra_dtails">• LL.M </string>
+
+
+    <string name="arts_gra_details">
+    • M.A. ELL (English Language and Literature)\n
+    • M.A. ELT (English Language Teaching) 2- year Program\n
+    • M.A. ELT (English Language Teaching) 1- year Program\n
+    </string>
+
+
+    <string name="ent_gra_details">
+        • M.Sc. CSE (Master of Computer Science and Engineering)
+    </string>
+
+
+    <string name="bus_gra_details">
+    • MBA (Master of Business Administration) \n
+    • EMBA (Evening Master of Business Administration) \n
+
+    </string>
+
+
+    // Semester Name
+
+    <string name="first_semester">First Semester</string>
+    <string name="second_semester">Second Semester</string>
+    <string name="third_semester">Third Semester</string>
+    <string name="fourth_semester">Fourth Semester</string>
+    <string name="fifth_semester">Fifth Semester</string>
+    <string name="sixth_semester">Sixth Semester</string>
+    <string name="seventh_semester">Seventh Semester</string>
+    <string name="eight_semester">Eighth Semester</string>
+    <string name="nine_semester">Ninth Semester</string>
+    <string name="ten_semester">Tenth Semester</string>
+    <string name="eleven_semester">Eleventh Semester</string>
+    <string name="twelve_semester">Twelfth Semester</string>
+    <string name="all_semester">All Semesters</string>
+
+    //Academic Calendar Section
+
+    <string name="academic_cal">Summer 2016</string>
+    <string name="classes_start">Classes start </string>
+    <string name="course_add_drop">Course Add / Drop</string>
+    <string name="semester_course_withdrawal">Semester/Course withdrawal(with 100% course fee refund)</string>
+    <string name="semester_course_withdrawal_1">Semester/Course withdrawal(with 50% course fee refund)</string>
+    <string name="semester_course_withdrawal_2">Semester/Course withdrawal(with 25% course fee refund)</string>
+    <string name="last_date_of_credit_transfer">Deadline of Application for Credit Transfer/Waiver</string>
+    <string name="mid_exam">Mid Term Examination Start </string>
+    <string name="final_exam">Final Examination Start</string>
+    <string name="advising_for_fall">Course Advising for Fall 2016</string>
+    <string name="class_end">Classes end</string>
+    <string name="result_published">Publication of semester result</string>
+    <string name="semester_break">Semester break for students</string>
+    <string name="first_installment">1st  Installment (Summer 2016)</string>
+    <string name="second_installment">2nd  Installment (Summer 2016)</string>
+    <string name="third_installment">3rd  Installment (Summer 2016)</string>
+
+
+    <string name="register_office">
+
+        House 26(5th Floor), Road 5,\n
+        Dhanmondi R/A, Dhaka - 1205 \n
+        Phone: +88-029676031 3 - 5, Ext: 0, 112, 208, 209\n
+        Email: registrar@easternuni.edu.bd\n
+        Room: 609 \n
+    </string>
+
+
+    <string name="admission_office">
+
+        House 26(1st Floor), Road 5,\n
+        Dhanmondi Dhaka-1205,\n
+        Ph: +88029671912, +88029671925 Ext: 250, 251,\n
+        Mob: +8801741300002 +8801823660833\n
+        Email: dd_admission@easternuni.edu.bd \n
+    </string>
+
+
+    <string name="public_relation_office">
+
+        House No: 26 (Building-1, 1st Floor),\n
+        Road: 05, Dhanmondi, Dhaka-1205\n
+        Phone: 9676031-5 Ext: 255\n
+        Email: imtiaj@easternuni.edu.bd \n
+
+    </string>
+
+    <string name="exam_office">
+
+        House 26(5th Floor) , Road 5,\n
+        Dhanmondi R/A, Dhaka - 1205\n
+        Phone: +88029676031-5, Ext: 215, 216\n
+        Fax: +88029675981\n
+        Email: examcontrollersoffice@easternuni.edu.bd\n
+        Room: 607\n
+
+    </string>
+
+
+    <string name="medical_office">
+
+         House 26(1st Floor) , Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205\n
+         Phone: +88029611097, +88029671912, Ext: 265\n
+
+
+    </string>
+
+
+    <string name="library_office">
+
+         House 26(1st Floor) , Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205\n
+         Phone: +88-029676031 3 - 5, Ext: 281, 282\n
+
+
+    </string>
+
+
+    <string name="Career_Services_office">
+
+         House 26(Building-2, 1st Floor) ,Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205\n
+         Phone: +88-029676031 3-5,Ex: 290,291\n
+         Email: abu.rasel@easternuni.edu.bd\n
+         Room: 205A \n
+
+
+    </string>
+
+    <string name="counsellor_office">
+
+         House 26(1st Floor) , Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205\n
+         Phone: +88-029676031 3 - 5,  Ex: 267\n
+         Email: nowshin@easternuni.edu.bd\n
+
+
+    </string>
+
+
+    <string name="student_affairs_office">
+
+         House 26(Ground Floor) , Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205 \n
+         Phone: +88-029676031 3 - 5, Ext: 260, 261 \n
+         Email: jamal@easternuni.edu.bd \n
+
+
+    </string>
+
+    <string name="it_office">
+
+         House 26(3rd Floor) , Road 5,\n
+         Dhanmondi R/A, Dhaka - 1205\n
+         Phone: +88-029676031 3 - 5, Ext: 271\n
+         Room: 409\n
+
+
+    </string>
+
+    <string name="arts_office">
+
+         House 26(Building-2), Road 5,\n
+         Dhanmondi R/A, Dhaka-1205\n
+         Ph: +88-029676031 3 - 5, +88028122131, +88028122293\n
+         Room: 301 \n
+
+    </string>
+
+    <string name="business_office">
+
+        House 26, Road 5,\n
+        Dhanmondi R/A, Dhaka-1205\n
+        Ph: +88-029676031 3 - 5, +88029611097, +88029611288,\n
+        +88029611580, +88029611589, 09602666650\n
+
+
+    </string>
+
+    <string name="engineering_office">
+
+        House 15/2, Road 3,\n
+        Dhanmondi R/A, Dhaka-1205\n
+        Ph: +88029677523, +88028621419, +88029673657\n
+        Room: 204 \n
+
+
+    </string>
+
+    <string name="engineering_office2">
+
+        House 3, Road 3,\n
+        Dhanmondi R/A, Dhaka-1205\n
+        Ph: +88028622563\n
+        Room: 511 \n
+
+
+    </string>
+
+    <string name="law_office">
+
+        House 26(Building-2) , Road 5,\n
+        Dhanmondi R/A, Dhaka-1205\n
+        Ph: +88-029676031 3 - 5, +88028122131, +88028122293\n
+        Room: 504 \n
+
+
+    </string>
+
+
+    this string is using For cgpa calculator
+    -->
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <string name="sub_no">Sub no</string>
+    <string name="select1"></string>
+    <string name="select2"></string>
+
+    <string-array name="courses_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <string-array name="credit_array">
+        <item></item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.5</item>
+        <item>6</item>
+        <item>6.5</item>
+        <item>7</item>
+        <item>7.5</item>
+        <item>8</item>
+        <item>8.5</item>
+        <item>9</item>
+        <item>9.5</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="grade_array">
+        <item></item>
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>F</item>
+    </string-array>
+
+
+</resources>

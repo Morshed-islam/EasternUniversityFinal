@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context="bd.edu.easternuni.easternuniversityupdate.Notice.NoticeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLay"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linearLay"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        tools:context=".EventsNews.EventNewsActivity"
+        android:id="@+id/relativeLayout">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_below="@+id/relativelayout"
+            android:id="@+id/recycler_view"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

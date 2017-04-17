@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="" />
+
+        <item
+            android:id="@+id/teacherLogin"
+            android:icon="@drawable/twonavi"
+            android:title="" />
+        <item
+            android:id="@+id/studentLogin"
+            android:icon="@drawable/threenavi"
+            android:title="" />
+        <item
+            android:id="@+id/cgpaCalculator"
+            android:icon="@drawable/fournavi"
+            android:title="" />
+
+        <item
+            android:id="@+id/academic"
+            android:icon="@drawable/fivenavi"
+            android:title="" />
+        <item
+            android:id="@+id/faculties"
+            android:icon="@drawable/sixnavi"
+            android:title="" />
+        <item
+            android:id="@+id/academicCal"
+            android:icon="@drawable/sevennavi"
+            android:title="" />
+        <item
+            android:id="@+id/noticeMenu"
+            android:icon="@drawable/eightnavi"
+            android:title="" />
+        <item
+            android:id="@+id/course"
+            android:icon="@drawable/ninenavi"
+            android:title="" />
+
+        <item
+            android:id="@+id/club"
+            android:icon="@drawable/onenavi"
+            android:title="" />
+
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/tennavi"
+            android:title="" />
+
+        <item
+            android:id="@+id/developer"
+            android:icon="@drawable/elevenavi"
+            android:title="" />
+
+    </group>
+
+
+</menu>
